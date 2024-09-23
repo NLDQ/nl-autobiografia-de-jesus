@@ -1,0 +1,413 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Autobiografia de Jesus", de Miguel Real</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Autobiografia de Jesus", de Miguel Real</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-autobiografia-de-jesus/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://1drv.ms/i/s!AnUkWVoZ6eylia4l9W5pmscfZbaj9A?embed=1&width=700&height=400" alt="&quot;Autobiografia de Jesus&quot;, de Miguel Real." border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+								<h1 style="color:#fcaf17">Autobiografia de Jesus</h1>
+							<h2>Miguel Real</h2>
+							<h4>Nas livrarias a 24 de Setembro</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>No novo romance de Miguel Real, original e inventivo, é o Filho de Deus que nos fala daquilo de que os Envagelhos não falam: a sua vida familiar, a sua aprendizagem, as suas revelações, a sua conduta com as mulheres e, sobretudo, a sua tremenda solidão.</strong></h4>
+								<p style="text-align:left !important"><br><strong>Para o autor do presente livro</strong>, Jesus é uma coisa e Cristo é outra. Quando em pequeno, numa aula da catequese, Miguel Real explicou ao catequista que não acreditava que ninguém que tivesse morrido pudesse voltar à vida, este, amigo da família, ficou tão chocado com aquela sinceridade que foi queixar-se à sua mãe, de quem recebeu a resposta que merecia.<br>
+								Foi desde então que o problema da Ressurreição não mais deixou de preocupar o escritor e, tantos anos volvidos, o levou a escrever esta <em>Autobiografia de Jesus</em> tomando a voz do Filho de Deus, já que nada se conhece que Jesus tenha deixado escrito pela sua mão e os Evangelhos praticamente não falam do que foi a sua vida familiar, a sua aprendizagem, as suas revelações, a sua conduta com as mulheres e, sobretudo, a sua tremenda solidão.<br><br>
+								<strong>É sobre tudo isso</strong> que trata este romance há muito esperado, de um autor frequentemente atraído pelos assuntos religiosos e com várias obras ensaísticas publicadas em torno do pecado, da Igreja e do culto de Fátima. Com um final incrivelmente inesperado, parece que aquele nó cego criado na mente do autor durante a infância vai certamente ser desatado durante a nossa leitura.</p>
+								<p style="text-align:center"><br><strong><em>«Trago um mistério comigo, o meu rosto nunca sorri, mesmo quando Madalena brinca comigo à beira d’água, lavando-me a cabeça com óleo de tâmara, ou quando, há muitos anos, os meus irmãos mais novos faziam pirraças montados no lombo das ovelhas ou das cabras. A gravidade e a sisudez são o meu porte, antes de agir penso duas, três vezes, criando alternativas no interior da missão que o Pai me destinou, sou sério como o era o meu pai José. Quando estou só, penso em fugir e ir para outro lado que, depois, se revelará tão bom e tão mau como o sítio onde me encontro. Gosto de estar sozinho, de me isolar, mas isolado nada posso fazer, sobretudo a missão de que o Pai me incumbiu. Estou sempre só, embora as multidões se acotovelem à minha volta, ansiando por prodígios.»</em></strong></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="fcaf17">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Miguel Real." src="https://1drv.ms/i/s!AnUkWVoZ6eylia4mc5DH48Gk4D8ZYg?embed=1&width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Miguel Real</strong> possui uma vasta obra dividida entre o ensaio, a ficção e o teatro (neste último género sempre em colaboração com Filomena Oliveira), tendo recebido o Prémio de Revelação nas áreas da Ficção e do Ensaio Literário da Associação Portuguesa de Escritores, o Prémio Ler/Círculo de Leitores, o Prémio da Associação dos Críticos Literários, o Prémio Literário Fernando Namora, atribuído ao romance <em>A Voz da Terra</em>, também finalista do Prémio de Romance e Novela da APE, e o Prémio SPA Autores pelo romance <em>O Feitiço da Índia</em>.<br>
+							É colaborador permanente do <em>JL</em>, onde faz crítica literária.<br>
+							Faz parte da equipa que prepara neste momento uma História Global da Literatura Portuguesa.<br>
+							Em 2023, recebeu o primeiro Prémio Matriz Portuguesa dedicado a autores que, com qualidade, escrevem sobre temas nacionais.<br>
+							Na Dom Quixote, publicou os romances <em>As Memórias Secretas da Rainha D. Amélia</em>, <em>A Guerra dos Mascates</em>, <em>O Feitiço da Índia</em>, <em>A Cidade do Fim</em>, <em>O Último Europeu</em> e <em>Cadáveres às Costas</em>, e reeditou <em>A Voz da Terra</em> e <em>O Último Minuto na Vida de S.</em>, tendo ainda publicado os ensaios <em>Nova Teoria do Mal</em>, <em>Nova Teoria da Felicidade</em>, <em>Portugal – Um país parado no meio do caminho</em>, <em>Nova Teoria do Sebastianismo</em>, <em>Nova Teoria do Pecado</em>, <em>Fátima e a Cultura Portuguesa</em> e <em>Pessoa &amp; Saramago</em>.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="fcaf17">
+<br>
+<!-- Outros livros da autora-->
+<table align="center" width="80%">
+	<h3 style="color:#0172bc">Outros livros da autora</h3>
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="As Memórias Secretas da Rainha D. Amélia" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4gnawqzaZt5-grlw?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="A Guerra dos Mascates" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4kRxQjuO6t_IjRzA?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Feitiço da Índia" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4hVRxxORdsG1EXHg?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="A Cidade do Fim" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4ixjgcgSbnHl8OFA?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<table align="center" width="80%">
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Último Europeu" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4fDY6yRTfWnJ59Sw?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Cadáveres às Costas" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4d_tuwViSZ4BpnLg?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="A Voz da Terra" src="https://1drv.ms/i/s!AnUkWVoZ6eylia4eOsKFonL_f5qlJA?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Último Minuto na Vida de S." src="https://1drv.ms/i/s!AnUkWVoZ6eylia4jLWgkJ2q6hjJn0A?embed=1&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="fcaf17">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Autobiografia de Jesus&quot;, de Miguel Real." src="https://1drv.ms/i/s!AnUkWVoZ6eyliZNIDa58-O-tiHx85Q?embed=1&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Lusófona<br>
+							300 páginas<br>
+							18,80 Euros<br>
+							ISBN: 978-972-20-8362-1<br>
+							1.ª Edição: Setembro 2024<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
